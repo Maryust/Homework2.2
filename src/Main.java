@@ -4,7 +4,7 @@ public class Main {
         // Начальная сумма на счёте
         int sumDeposit = 1000;
         // Внесённая сумма
-        int criticalSum = 1000;
+        int criticalSum = 1100;
         int endSumInAccount;
         int bonus;
         if (sumDeposit>=criticalSum){
