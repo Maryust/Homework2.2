@@ -2,12 +2,11 @@ public class Main {
     public static void main(String[] args) {
         int startSumInAccount = 100;
         // Начальная сумма на счёте
-        int sumDeposit = 1000;
+        int sumDeposit = 1002;
         // Внесённая сумма
-        int criticalSum = 1100;
         int endSumInAccount;
         int bonus;
-        if (sumDeposit>=criticalSum){
+        if (sumDeposit>1000){
             bonus = sumDeposit/100;
             endSumInAccount = startSumInAccount + sumDeposit + bonus;
             System.out.println("Баланс на счете:" + endSumInAccount);
